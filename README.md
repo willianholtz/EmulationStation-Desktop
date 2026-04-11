@@ -9,8 +9,8 @@
 ---
 
 <p align="center">
-  <img src="es-de.jpg" width="420"/>
-  <img src="retroarch.png" width="420"/>
+  <img src="es-de.jpg" width="360"/>
+  <img src="retroarch.png" width="360"/>
 </p>
 
 ---
