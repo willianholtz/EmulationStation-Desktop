@@ -1,28 +1,60 @@
-# 🎮 ES-DE + RetroArch (Linux / Arch) Setup
+# 🎮 ES-DE + RetroArch Setup (Linux / Arch)
 
-![ES-DE](es-de.jpg)
-
-![RetroArch](retroarch.png)
-
-A clean and minimal setup for ES-DE using RetroArch (libretro cores only), focused on stability, organization, and ease of maintenance.
+![Linux](https://img.shields.io/badge/Linux-Compatible-green)
+![Arch](https://img.shields.io/badge/Arch-Tested-blue)
+![RetroArch](https://img.shields.io/badge/RetroArch-libretro-orange)
+![ES-DE](https://img.shields.io/badge/Frontend-ES--DE-red)
+![Status](https://img.shields.io/badge/Status-Stable-success)
 
 ---
 
-## 🚀 Purpose
+<p align="center">
+  <img src="es-de.jpg" width="420"/>
+  <img src="retroarch.png" width="420"/>
+</p>
 
-* Run all systems through RetroArch
-* Use an isolated configuration (`retroarch.cfg`)
-* Avoid conflicts with overlays and shaders
-* Keep everything organized inside `.config`
-* Maintain a simple and predictable setup
+---
+
+## 🚀 Overview
+
+A clean and minimal setup for **ES-DE** using **RetroArch (libretro cores only)**.
+
+This project focuses on:
+
+* Simplicity
+* Stability
+* Clean file structure
+* Full control over configuration
+
+No unnecessary layers. No hidden behavior.
+
+---
+
+## ✨ Features
+
+* 🎯 Single backend: RetroArch only
+* ⚡ Vulkan-based rendering
+* 🧩 Custom `es_systems.xml` configuration
+* 🧼 Clean `.config`-based structure
+* 🚫 No overlays or unwanted shaders by default
+* 🔁 Easy to maintain and extend
+
+---
+
+## ⚡ Quick Start
+
+```bash
+git clone <your-repo>
+cd <your-repo>
+
+./ES-DE_x64.AppImage --home ~/.config/
+```
 
 ---
 
 ## ⚙️ Running ES-DE
 
-This setup uses the AppImage version of ES-DE to allow full control over the configuration directory.
-
-### Using AppImage
+### AppImage (Recommended)
 
 ```bash
 ./ES-DE_x64.AppImage --home ~/.config/
@@ -30,9 +62,9 @@ This setup uses the AppImage version of ES-DE to allow full control over the con
 
 ---
 
-### Why use `--home`?
+## 🧠 Why use `--home`?
 
-By default, ES-DE stores data in multiple locations inside the user’s home directory. This can quickly become disorganized.
+By default, ES-DE spreads files across multiple locations in your home directory.
 
 Using:
 
@@ -42,18 +74,16 @@ Using:
 
 forces ES-DE to:
 
-* Store all configuration files in a single location
-* Keep gamelists, systems, and metadata isolated
-* Avoid polluting the default `$HOME` directory
+* Store everything in one place
+* Keep configs isolated
+* Avoid clutter in `$HOME`
 * Make backups and version control easier
 
-Result: a clean and portable setup.
+Result: a clean and predictable setup.
 
 ---
 
-### Using an Installed Version
-
-If ES-DE is installed via a package manager:
+### Installed Version (Package Manager)
 
 #### Option 1 — Script
 
@@ -98,19 +128,17 @@ Exec=es-de --home ~/.config/
 
 ---
 
-## 📁 ROMs and Cores (Important)
-
-This setup assumes that both ROMs and cores follow the standard RetroArch structure.
+## 📁 ROMs and Cores
 
 ### ROMs
 
-All ROMs must be placed inside:
+All ROMs must be placed in:
 
 ```bash
 ~/.config/retroarch/roms/
 ```
 
-And organized by system, for example:
+Example structure:
 
 ```bash
 Nintendo - Super Nintendo Entertainment System/
@@ -118,19 +146,19 @@ Nintendo - Nintendo Entertainment System/
 Sony - PlayStation/
 ```
 
-The folder names must match the paths defined in `es_systems.xml`.
+⚠️ Folder names must match `es_systems.xml` exactly.
 
 ---
 
 ### Cores
 
-All cores must be located in:
+Located in:
 
 ```bash
 ~/.config/retroarch/cores/
 ```
 
-Example:
+Examples:
 
 ```bash
 bsnes_libretro.so
@@ -140,23 +168,13 @@ parallel_n64_libretro.so
 
 ---
 
-### Important Notes
-
-* ES-DE does not manage cores
-* RetroArch must already be configured and working
-* Paths in `es_systems.xml` must match actual folders exactly
-
----
-
-## 🎯 ROM Directory Configuration
+## 🎯 ES-DE Configuration
 
 File:
 
 ```bash
 ~/.config/ES-DE/es_settings.xml
 ```
-
-Set:
 
 ```xml
 <string name="ROMDirectory" value="~/retroarch/roms/" />
@@ -188,6 +206,8 @@ File:
 ~/.config/ES-DE/retroarch.cfg
 ```
 
+Recommended setup:
+
 * Vulkan enabled
 * Fullscreen enabled
 * Overlays disabled
@@ -195,27 +215,48 @@ File:
 
 ---
 
+## 🎨 Shaders (Optional)
+
+```ini
+video_shader_enable = "true"
+video_shader = "~/.config/retroarch/shaders/shaders_slang/crt/crt-guest-advanced.slangp"
+```
+
+> Note: `crt-royale` is performance intensive.
+
+---
+
+## 🔄 Arcade Rotation
+
+For vertical games:
+
+1. Launch game
+2. Press `F1`
+3. Adjust rotation
+4. Save override
+
+---
+
 ## ⚠️ Common Issues
 
-### "0 systems loaded"
+### No systems loaded
 
 * Invalid `<path>`
 * Incorrect ROM directory
 
 ---
 
-### Games not appearing
+### Games not showing
 
-* Folder name mismatch
-* Unsupported file extensions
+* Folder mismatch
+* Missing extensions
 
 ---
 
 ### Black screen
 
-* Incorrect core
+* Wrong core
 * Shader issues
-* Broken configuration
 
 ---
 
@@ -229,9 +270,9 @@ rm ~/.config/ES-DE/gamelists/*/gamelist.xml
 
 ## 🧠 Philosophy
 
-* One frontend (ES-DE)
-* One backend (RetroArch)
-* Clean and maintainable setup
+* One frontend → ES-DE
+* One backend → RetroArch
+* Minimal configuration
 
 ---
 
@@ -239,9 +280,17 @@ rm ~/.config/ES-DE/gamelists/*/gamelist.xml
 
 A setup that is:
 
-* Organized
+* Clean
 * Predictable
 * Easy to maintain
 * Ready for version control
+
+---
+
+## 🔥 Future Improvements
+
+* Per-system shader presets
+* Automated setup script
+* Additional system support
 
 ---
