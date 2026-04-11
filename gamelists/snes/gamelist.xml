@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<gameList>
+	<game>
+		<path>./3 Ninjas Kick Back (USA).zip</path>
+		<name>3 Ninjas Kick Back (USA)</name>
+		<playcount>2</playcount>
+		<playtime>13</playtime>
+		<lastplayed>20260411T194531</lastplayed>
+	</game>
+	<game>
+		<path>./Bram Stoker's Dracula (USA).zip</path>
+		<name>Bram Stoker's Dracula (USA)</name>
+		<playcount>1</playcount>
+		<playtime>31</playtime>
+		<lastplayed>20260411T195959</lastplayed>
+	</game>
+</gameList>

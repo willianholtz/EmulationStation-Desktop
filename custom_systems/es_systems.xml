@@ -1,0 +1,135 @@
+<systemList>
+
+    <!-- SNES -->
+    <system>
+        <name>snes</name>
+        <fullname>Super Nintendo</fullname>
+        <path>%ROMPATH%/Nintendo - Super Nintendo Entertainment System</path>
+        <extension>.sfc .smc .zip</extension>
+        <command>retroarch --config $HOME/.config/ES-DE/retroarch.cfg -L $HOME/.config/retroarch/cores/bsnes_libretro.so %ROM%</command>
+        <platform>snes</platform>
+        <theme>snes</theme>
+    </system>
+
+    <!-- NES -->
+    <system>
+        <name>nes</name>
+        <fullname>Nintendo Entertainment System</fullname>
+        <path>%ROMPATH%/Nintendo - Nintendo Entertainment System</path>
+        <extension>.nes .zip</extension>
+        <command>retroarch --config $HOME/.config/ES-DE/retroarch.cfg -L $HOME/.config/retroarch/cores/mesen_libretro.so %ROM%</command>
+        <platform>nes</platform>
+        <theme>nes</theme>
+    </system>
+
+    <!-- N64 -->
+    <system>
+        <name>n64</name>
+        <fullname>Nintendo 64</fullname>
+        <path>%ROMPATH%/Nintendo - Nintendo 64</path>
+        <extension>.z64 .n64 .zip</extension>
+        <command>retroarch --config $HOME/.config/ES-DE/retroarch.cfg -L $HOME/.config/retroarch/cores/parallel_n64_libretro.so %ROM%</command>
+        <platform>n64</platform>
+        <theme>n64</theme>
+    </system>
+
+    <!-- Game Boy -->
+    <system>
+        <name>gb</name>
+        <fullname>Game Boy</fullname>
+        <path>%ROMPATH%/Nintendo - Game Boy</path>
+        <extension>.gb .zip</extension>
+        <command>retroarch --config $HOME/.config/ES-DE/retroarch.cfg -L $HOME/.config/retroarch/cores/gambatte_libretro.so %ROM%</command>
+        <platform>gb</platform>
+        <theme>gb</theme>
+    </system>
+
+    <!-- Game Boy Color -->
+    <system>
+        <name>gbc</name>
+        <fullname>Game Boy Color</fullname>
+        <path>%ROMPATH%/Nintendo - Game Boy Color</path>
+        <extension>.gbc .zip</extension>
+        <command>retroarch --config $HOME/.config/ES-DE/retroarch.cfg -L $HOME/.config/retroarch/cores/sameboy_libretro.so %ROM%</command>
+        <platform>gbc</platform>
+        <theme>gbc</theme>
+    </system>
+
+    <!-- Game Boy Advance -->
+    <system>
+        <name>gba</name>
+        <fullname>Game Boy Advance</fullname>
+        <path>%ROMPATH%/Nintendo - Game Boy Advance</path>
+        <extension>.gba .zip</extension>
+        <command>retroarch --config $HOME/.config/ES-DE/retroarch.cfg -L $HOME/.config/retroarch/cores/mgba_libretro.so %ROM%</command>
+        <platform>gba</platform>
+        <theme>gba</theme>
+    </system>
+
+    <!-- Mega Drive -->
+    <system>
+        <name>megadrive</name>
+        <fullname>Sega Mega Drive</fullname>
+        <path>%ROMPATH%/Sega - Mega Drive - Genesis</path>
+        <extension>.bin .gen .zip</extension>
+        <command>retroarch --config $HOME/.config/ES-DE/retroarch.cfg -L $HOME/.config/retroarch/cores/genesis_plus_gx_libretro.so %ROM%</command>
+        <platform>megadrive</platform>
+        <theme>megadrive</theme>
+    </system>
+
+    <!-- Master System -->
+    <system>
+        <name>mastersystem</name>
+        <fullname>Sega Master System</fullname>
+        <path>%ROMPATH%/Sega - Master System - Mark III</path>
+        <extension>.sms .zip</extension>
+        <command>retroarch --config $HOME/.config/ES-DE/retroarch.cfg -L $HOME/.config/retroarch/cores/genesis_plus_gx_libretro.so %ROM%</command>
+        <platform>mastersystem</platform>
+        <theme>mastersystem</theme>
+    </system>
+
+    <!-- Dreamcast -->
+    <system>
+        <name>dreamcast</name>
+        <fullname>Sega Dreamcast</fullname>
+        <path>%ROMPATH%/Sega - Dreamcast</path>
+        <extension>.cdi .gdi .chd</extension>
+        <command>retroarch --config $HOME/.config/ES-DE/retroarch.cfg -L $HOME/.config/retroarch/cores/flycast_libretro.so %ROM%</command>
+        <platform>dreamcast</platform>
+        <theme>dreamcast</theme>
+    </system>
+
+    <!-- PS1 -->
+    <system>
+        <name>psx</name>
+        <fullname>PlayStation</fullname>
+        <path>%ROMPATH%/Sony - PlayStation</path>
+        <extension>.cue .bin .img .pbp</extension>
+        <command>retroarch --config $HOME/.config/ES-DE/retroarch.cfg -L $HOME/.config/retroarch/cores/swanstation_libretro.so %ROM%</command>
+        <platform>psx</platform>
+        <theme>psx</theme>
+    </system>
+
+    <!-- PSP -->
+    <system>
+        <name>psp</name>
+        <fullname>PlayStation Portable</fullname>
+        <path>%ROMPATH%/Sony - PlayStation Portable</path>
+        <extension>.iso .cso</extension>
+        <command>retroarch --config $HOME/.config/ES-DE/retroarch.cfg -L $HOME/.config/retroarch/cores/ppsspp_libretro.so %ROM%</command>
+        <platform>psp</platform>
+        <theme>psp</theme>
+    </system>
+
+    <!-- Arcade -->
+    <system>
+        <name>arcade</name>
+        <fullname>Arcade</fullname>
+        <path>%ROMPATH%/FBNeo - Arcade Games</path>
+        <extension>.zip</extension>
+        <command>retroarch --config $HOME/.config/ES-DE/retroarch.cfg -L $HOME/.config/retroarch/cores/fbneo_libretro.so %ROM%</command>
+        <platform>arcade</platform>
+        <theme>arcade</theme>
+    </system>
+
+</systemList>

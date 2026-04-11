@@ -1,0 +1,452 @@
+Apr 11 19:55:44 Info:   ES-DE 3.4.1 (r51), built Apr  5 2026 - 15:13:19
+Apr 11 19:55:44 Info:   Application language set to "pt_BR"
+Apr 11 19:55:44 Info:   Creating window...
+Apr 11 19:55:44 Info:   Using display: 1
+Apr 11 19:55:44 Info:   Screen offset: disabled
+Apr 11 19:55:44 Info:   Screen rotation: disabled
+Apr 11 19:55:45 Info:   Display resolution: 2560x1440
+Apr 11 19:55:45 Info:   Display refresh rate: 60 Hz
+Apr 11 19:55:45 Info:   Application resolution: 2560x1440
+Apr 11 19:55:45 Info:   Screen mode: fullscreen
+Apr 11 19:55:45 Info:   Setting up OpenGL...
+Apr 11 19:55:45 Info:   GL vendor: NVIDIA Corporation
+Apr 11 19:55:45 Info:   GL renderer: NVIDIA GeForce RTX 2060/PCIe/SSE2
+Apr 11 19:55:45 Info:   GL version: 3.3.0 NVIDIA 595.58.03
+Apr 11 19:55:45 Info:   Application renderer: OpenGL 3.3
+Apr 11 19:55:45 Info:   Anti-aliasing: disabled
+Apr 11 19:55:45 Info:   VSync: enabled
+Apr 11 19:55:45 Info:   Loading shaders...
+Apr 11 19:55:45 Info:   Setting up InputManager...
+Apr 11 19:55:45 Info:   No input configuration file found, default mappings will be applied
+Apr 11 19:55:45 Info:   Added keyboard with default configuration
+Apr 11 19:55:45 Info:   Added controller with default configuration: "Nintendo Switch Pro Controller" (GUID: 0500d71f7e0500000920000001800000, serial number: n/a, instance ID: 0, device index: 0)
+Apr 11 19:55:45 Info:   Checking for application updates...
+Apr 11 19:55:45 Info:   Setting up AudioManager...
+Apr 11 19:55:45 Info:   Audio driver: pulseaudio
+Apr 11 19:55:45 Info:   Detected playback device: Starship/Matisse HD Audio Controller Estéreo analógico
+Apr 11 19:55:45 Info:   Detected playback device: TU106 High Definition Audio Controller Estéreo digital (HDMI)
+Apr 11 19:55:45 Debug:  AudioManager::init(): Requested sample buffer size 512 could not be set, obtained 1024
+Apr 11 19:55:45 Info:   SDL version: 2.32.10
+Apr 11 19:55:45 Info:   Parsing MAME names file "/tmp/.mount_ES-DEremp16543393776435312510/usr/bin/resources/MAME/mamenames.xml"...
+Apr 11 19:55:45 Info:   Parsing MAME BIOSes file "/tmp/.mount_ES-DEremp16543393776435312510/usr/bin/resources/MAME/mamebioses.xml"...
+Apr 11 19:55:45 Info:   Parsing MAME devices file "/tmp/.mount_ES-DEremp16543393776435312510/usr/bin/resources/MAME/mamedevices.xml"...
+Apr 11 19:55:45 Info:   Checking for available themes...
+Apr 11 19:55:45 Debug:  Loading theme capabilities for "/tmp/.mount_ES-DEremp16543393776435312510/usr/bin/themes/linear-es-de"...
+Apr 11 19:55:45 Info:   Added theme "/tmp/.mount_ES-DEremp16543393776435312510/usr/bin/themes/linear-es-de" ("Linear")
+Apr 11 19:55:45 Debug:  Theme includes support for 6 variants, 6 color schemes, 2 font sizes, 4 aspect ratios, 3 transitions and 23 languages
+Apr 11 19:55:45 Debug:  Loading theme capabilities for "/tmp/.mount_ES-DEremp16543393776435312510/usr/bin/themes/modern-es-de"...
+Apr 11 19:55:45 Info:   Added theme "/tmp/.mount_ES-DEremp16543393776435312510/usr/bin/themes/modern-es-de" ("Modern")
+Apr 11 19:55:45 Debug:  Theme includes support for 5 variants, 2 color schemes, 2 font sizes, 4 aspect ratios, 3 transitions and 23 languages
+Apr 11 19:55:45 Debug:  Loading theme capabilities for "/tmp/.mount_ES-DEremp16543393776435312510/usr/bin/themes/slate-es-de"...
+Apr 11 19:55:45 Info:   Added theme "/tmp/.mount_ES-DEremp16543393776435312510/usr/bin/themes/slate-es-de" ("Slate")
+Apr 11 19:55:45 Debug:  Theme includes support for 3 variants, 2 color schemes, 2 font sizes, 4 aspect ratios, 3 transitions and 23 languages
+Apr 11 19:55:45 Info:   Loading emulator find rules...
+Apr 11 19:55:45 Info:   Parsing find rules configuration file "/tmp/.mount_ES-DEremp16543393776435312510/usr/bin/resources/systems/linux/es_find_rules.xml"...
+Apr 11 19:55:45 Info:   Loading system import rules...
+Apr 11 19:55:45 Info:   Parsing import rules configuration file "/tmp/.mount_ES-DEremp16543393776435312510/usr/bin/resources/systems/linux/es_import_rules.xml"...
+Apr 11 19:55:45 Info:   Populating game systems...
+Apr 11 19:55:45 Info:   Found custom systems configuration file
+Apr 11 19:55:45 Info:   Parsing systems configuration file "/home/willian/.config/ES-DE/custom_systems/es_systems.xml"...
+Apr 11 19:55:45 Info:   Parsing gamelist file "/home/willian/.config/ES-DE/gamelists/snes/gamelist.xml"...
+Apr 11 19:55:45 Debug:  GamelistFileParser::parseGamelist(): System "nes" does not have a gamelist.xml file
+Apr 11 19:55:45 Debug:  GamelistFileParser::parseGamelist(): System "n64" does not have a gamelist.xml file
+Apr 11 19:55:45 Debug:  GamelistFileParser::parseGamelist(): System "gb" does not have a gamelist.xml file
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "gb" as no files matched any of the defined file extensions
+Apr 11 19:55:45 Debug:  GamelistFileParser::parseGamelist(): System "gbc" does not have a gamelist.xml file
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "gbc" as no files matched any of the defined file extensions
+Apr 11 19:55:45 Debug:  GamelistFileParser::parseGamelist(): System "gba" does not have a gamelist.xml file
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "gba" as no files matched any of the defined file extensions
+Apr 11 19:55:45 Debug:  GamelistFileParser::parseGamelist(): System "megadrive" does not have a gamelist.xml file
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "megadrive" as no files matched any of the defined file extensions
+Apr 11 19:55:45 Debug:  GamelistFileParser::parseGamelist(): System "mastersystem" does not have a gamelist.xml file
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "mastersystem" as no files matched any of the defined file extensions
+Apr 11 19:55:45 Debug:  GamelistFileParser::parseGamelist(): System "dreamcast" does not have a gamelist.xml file
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "psx" as the defined ROM directory "/home/willian/.config/retroarch/roms/Sony - PlayStation" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "psp" as the defined ROM directory "/home/willian/.config/retroarch/roms/Sony - PlayStation Portable" does not exist
+Apr 11 19:55:45 Info:   Parsing gamelist file "/home/willian/.config/ES-DE/gamelists/arcade/gamelist.xml"...
+Apr 11 19:55:45 Info:   Parsing systems configuration file "/tmp/.mount_ES-DEremp16543393776435312510/usr/bin/resources/systems/linux/es_systems.xml"...
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "3do" as the defined ROM directory "/home/willian/.config/retroarch/roms/3do" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "adam" as the defined ROM directory "/home/willian/.config/retroarch/roms/adam" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "ags" as the defined ROM directory "/home/willian/.config/retroarch/roms/ags" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "amiga" as the defined ROM directory "/home/willian/.config/retroarch/roms/amiga" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "amiga1200" as the defined ROM directory "/home/willian/.config/retroarch/roms/amiga1200" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "amiga600" as the defined ROM directory "/home/willian/.config/retroarch/roms/amiga600" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "amigacd32" as the defined ROM directory "/home/willian/.config/retroarch/roms/amigacd32" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "amstradcpc" as the defined ROM directory "/home/willian/.config/retroarch/roms/amstradcpc" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "android" as the defined ROM directory "/home/willian/.config/retroarch/roms/android" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "androidapps" as the defined ROM directory "/home/willian/.config/retroarch/roms/androidapps" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "androidgames" as the defined ROM directory "/home/willian/.config/retroarch/roms/androidgames" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "apple2" as the defined ROM directory "/home/willian/.config/retroarch/roms/apple2" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "apple2gs" as the defined ROM directory "/home/willian/.config/retroarch/roms/apple2gs" does not exist
+Apr 11 19:55:45 Debug:  A system with the name "arcade" has already been loaded, skipping duplicate entry
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "arcadia" as the defined ROM directory "/home/willian/.config/retroarch/roms/arcadia" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "archimedes" as the defined ROM directory "/home/willian/.config/retroarch/roms/archimedes" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "arduboy" as the defined ROM directory "/home/willian/.config/retroarch/roms/arduboy" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "astrocde" as the defined ROM directory "/home/willian/.config/retroarch/roms/astrocde" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "atari2600" as the defined ROM directory "/home/willian/.config/retroarch/roms/atari2600" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "atari5200" as the defined ROM directory "/home/willian/.config/retroarch/roms/atari5200" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "atari7800" as the defined ROM directory "/home/willian/.config/retroarch/roms/atari7800" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "atari800" as the defined ROM directory "/home/willian/.config/retroarch/roms/atari800" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "atarijaguar" as the defined ROM directory "/home/willian/.config/retroarch/roms/atarijaguar" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "atarijaguarcd" as the defined ROM directory "/home/willian/.config/retroarch/roms/atarijaguarcd" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "atarilynx" as the defined ROM directory "/home/willian/.config/retroarch/roms/atarilynx" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "atarist" as the defined ROM directory "/home/willian/.config/retroarch/roms/atarist" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "atarixe" as the defined ROM directory "/home/willian/.config/retroarch/roms/atarixe" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "atomiswave" as the defined ROM directory "/home/willian/.config/retroarch/roms/atomiswave" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "bbcmicro" as the defined ROM directory "/home/willian/.config/retroarch/roms/bbcmicro" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "c64" as the defined ROM directory "/home/willian/.config/retroarch/roms/c64" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "cdimono1" as the defined ROM directory "/home/willian/.config/retroarch/roms/cdimono1" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "cdtv" as the defined ROM directory "/home/willian/.config/retroarch/roms/cdtv" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "chailove" as the defined ROM directory "/home/willian/.config/retroarch/roms/chailove" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "channelf" as the defined ROM directory "/home/willian/.config/retroarch/roms/channelf" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "coco" as the defined ROM directory "/home/willian/.config/retroarch/roms/coco" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "colecovision" as the defined ROM directory "/home/willian/.config/retroarch/roms/colecovision" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "consolearcade" as the defined ROM directory "/home/willian/.config/retroarch/roms/consolearcade" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "cps" as the defined ROM directory "/home/willian/.config/retroarch/roms/cps" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "cps1" as the defined ROM directory "/home/willian/.config/retroarch/roms/cps1" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "cps2" as the defined ROM directory "/home/willian/.config/retroarch/roms/cps2" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "cps3" as the defined ROM directory "/home/willian/.config/retroarch/roms/cps3" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "crvision" as the defined ROM directory "/home/willian/.config/retroarch/roms/crvision" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "daphne" as the defined ROM directory "/home/willian/.config/retroarch/roms/daphne" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "desktop" as the defined ROM directory "/home/willian/.config/retroarch/roms/desktop" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "doom" as the defined ROM directory "/home/willian/.config/retroarch/roms/doom" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "dos" as the defined ROM directory "/home/willian/.config/retroarch/roms/dos" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "dragon32" as the defined ROM directory "/home/willian/.config/retroarch/roms/dragon32" does not exist
+Apr 11 19:55:45 Debug:  A system with the name "dreamcast" has already been loaded, skipping duplicate entry
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "easyrpg" as the defined ROM directory "/home/willian/.config/retroarch/roms/easyrpg" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "electron" as the defined ROM directory "/home/willian/.config/retroarch/roms/electron" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "emulators" as the defined ROM directory "/home/willian/.config/retroarch/roms/emulators" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "epic" as the defined ROM directory "/home/willian/.config/retroarch/roms/epic" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "famicom" as the defined ROM directory "/home/willian/.config/retroarch/roms/famicom" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "fba" as the defined ROM directory "/home/willian/.config/retroarch/roms/fba" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "fbneo" as the defined ROM directory "/home/willian/.config/retroarch/roms/fbneo" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "fds" as the defined ROM directory "/home/willian/.config/retroarch/roms/fds" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "flash" as the defined ROM directory "/home/willian/.config/retroarch/roms/flash" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "fm7" as the defined ROM directory "/home/willian/.config/retroarch/roms/fm7" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "fmtowns" as the defined ROM directory "/home/willian/.config/retroarch/roms/fmtowns" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "fpinball" as the defined ROM directory "/home/willian/.config/retroarch/roms/fpinball" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "gamate" as the defined ROM directory "/home/willian/.config/retroarch/roms/gamate" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "gameandwatch" as the defined ROM directory "/home/willian/.config/retroarch/roms/gameandwatch" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "gamecom" as the defined ROM directory "/home/willian/.config/retroarch/roms/gamecom" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "gamegear" as the defined ROM directory "/home/willian/.config/retroarch/roms/gamegear" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "gb" as the defined ROM directory "/home/willian/.config/retroarch/roms/gb" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "gba" as the defined ROM directory "/home/willian/.config/retroarch/roms/gba" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "gbc" as the defined ROM directory "/home/willian/.config/retroarch/roms/gbc" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "gc" as the defined ROM directory "/home/willian/.config/retroarch/roms/gc" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "genesis" as the defined ROM directory "/home/willian/.config/retroarch/roms/genesis" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "gmaster" as the defined ROM directory "/home/willian/.config/retroarch/roms/gmaster" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "gx4000" as the defined ROM directory "/home/willian/.config/retroarch/roms/gx4000" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "intellivision" as the defined ROM directory "/home/willian/.config/retroarch/roms/intellivision" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "j2me" as the defined ROM directory "/home/willian/.config/retroarch/roms/j2me" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "kodi" as the defined ROM directory "/home/willian/.config/retroarch/roms/kodi" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "laserdisc" as the defined ROM directory "/home/willian/.config/retroarch/roms/laserdisc" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "lcdgames" as the defined ROM directory "/home/willian/.config/retroarch/roms/lcdgames" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "lowresnx" as the defined ROM directory "/home/willian/.config/retroarch/roms/lowresnx" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "lutris" as the defined ROM directory "/home/willian/.config/retroarch/roms/lutris" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "lutro" as the defined ROM directory "/home/willian/.config/retroarch/roms/lutro" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "macintosh" as the defined ROM directory "/home/willian/.config/retroarch/roms/macintosh" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "mame" as the defined ROM directory "/home/willian/.config/retroarch/roms/mame" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "mame-advmame" as the defined ROM directory "/home/willian/.config/retroarch/roms/mame-advmame" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "mark3" as the defined ROM directory "/home/willian/.config/retroarch/roms/mark3" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "mastersystem" as the defined ROM directory "/home/willian/.config/retroarch/roms/mastersystem" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "megacd" as the defined ROM directory "/home/willian/.config/retroarch/roms/megacd" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "megacdjp" as the defined ROM directory "/home/willian/.config/retroarch/roms/megacdjp" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "megadrive" as the defined ROM directory "/home/willian/.config/retroarch/roms/megadrive" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "megadrivejp" as the defined ROM directory "/home/willian/.config/retroarch/roms/megadrivejp" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "megaduck" as the defined ROM directory "/home/willian/.config/retroarch/roms/megaduck" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "mess" as the defined ROM directory "/home/willian/.config/retroarch/roms/mess" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "model2" as the defined ROM directory "/home/willian/.config/retroarch/roms/model2" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "model3" as the defined ROM directory "/home/willian/.config/retroarch/roms/model3" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "moto" as the defined ROM directory "/home/willian/.config/retroarch/roms/moto" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "msx" as the defined ROM directory "/home/willian/.config/retroarch/roms/msx" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "msx1" as the defined ROM directory "/home/willian/.config/retroarch/roms/msx1" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "msx2" as the defined ROM directory "/home/willian/.config/retroarch/roms/msx2" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "msxturbor" as the defined ROM directory "/home/willian/.config/retroarch/roms/msxturbor" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "mugen" as the defined ROM directory "/home/willian/.config/retroarch/roms/mugen" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "multivision" as the defined ROM directory "/home/willian/.config/retroarch/roms/multivision" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "n3ds" as the defined ROM directory "/home/willian/.config/retroarch/roms/n3ds" does not exist
+Apr 11 19:55:45 Debug:  A system with the name "n64" has already been loaded, skipping duplicate entry
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "n64dd" as the defined ROM directory "/home/willian/.config/retroarch/roms/n64dd" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "naomi" as the defined ROM directory "/home/willian/.config/retroarch/roms/naomi" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "naomi2" as the defined ROM directory "/home/willian/.config/retroarch/roms/naomi2" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "naomigd" as the defined ROM directory "/home/willian/.config/retroarch/roms/naomigd" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "nds" as the defined ROM directory "/home/willian/.config/retroarch/roms/nds" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "neogeo" as the defined ROM directory "/home/willian/.config/retroarch/roms/neogeo" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "neogeocd" as the defined ROM directory "/home/willian/.config/retroarch/roms/neogeocd" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "neogeocdjp" as the defined ROM directory "/home/willian/.config/retroarch/roms/neogeocdjp" does not exist
+Apr 11 19:55:45 Debug:  A system with the name "nes" has already been loaded, skipping duplicate entry
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "ngage" as the defined ROM directory "/home/willian/.config/retroarch/roms/ngage" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "ngp" as the defined ROM directory "/home/willian/.config/retroarch/roms/ngp" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "ngpc" as the defined ROM directory "/home/willian/.config/retroarch/roms/ngpc" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "odyssey2" as the defined ROM directory "/home/willian/.config/retroarch/roms/odyssey2" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "openbor" as the defined ROM directory "/home/willian/.config/retroarch/roms/openbor" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "oric" as the defined ROM directory "/home/willian/.config/retroarch/roms/oric" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "palm" as the defined ROM directory "/home/willian/.config/retroarch/roms/palm" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "pc" as the defined ROM directory "/home/willian/.config/retroarch/roms/pc" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "pc88" as the defined ROM directory "/home/willian/.config/retroarch/roms/pc88" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "pc98" as the defined ROM directory "/home/willian/.config/retroarch/roms/pc98" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "pcarcade" as the defined ROM directory "/home/willian/.config/retroarch/roms/pcarcade" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "pcengine" as the defined ROM directory "/home/willian/.config/retroarch/roms/pcengine" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "pcenginecd" as the defined ROM directory "/home/willian/.config/retroarch/roms/pcenginecd" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "pcfx" as the defined ROM directory "/home/willian/.config/retroarch/roms/pcfx" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "pico8" as the defined ROM directory "/home/willian/.config/retroarch/roms/pico8" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "plus4" as the defined ROM directory "/home/willian/.config/retroarch/roms/plus4" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "pokemini" as the defined ROM directory "/home/willian/.config/retroarch/roms/pokemini" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "ports" as the defined ROM directory "/home/willian/.config/retroarch/roms/ports" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "ps2" as the defined ROM directory "/home/willian/.config/retroarch/roms/ps2" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "ps3" as the defined ROM directory "/home/willian/.config/retroarch/roms/ps3" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "ps4" as the defined ROM directory "/home/willian/.config/retroarch/roms/ps4" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "psp" as the defined ROM directory "/home/willian/.config/retroarch/roms/psp" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "psvita" as the defined ROM directory "/home/willian/.config/retroarch/roms/psvita" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "psx" as the defined ROM directory "/home/willian/.config/retroarch/roms/psx" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "pv1000" as the defined ROM directory "/home/willian/.config/retroarch/roms/pv1000" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "quake" as the defined ROM directory "/home/willian/.config/retroarch/roms/quake" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "samcoupe" as the defined ROM directory "/home/willian/.config/retroarch/roms/samcoupe" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "satellaview" as the defined ROM directory "/home/willian/.config/retroarch/roms/satellaview" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "saturn" as the defined ROM directory "/home/willian/.config/retroarch/roms/saturn" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "saturnjp" as the defined ROM directory "/home/willian/.config/retroarch/roms/saturnjp" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "scummvm" as the defined ROM directory "/home/willian/.config/retroarch/roms/scummvm" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "scv" as the defined ROM directory "/home/willian/.config/retroarch/roms/scv" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "sega32x" as the defined ROM directory "/home/willian/.config/retroarch/roms/sega32x" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "sega32xjp" as the defined ROM directory "/home/willian/.config/retroarch/roms/sega32xjp" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "sega32xna" as the defined ROM directory "/home/willian/.config/retroarch/roms/sega32xna" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "segacd" as the defined ROM directory "/home/willian/.config/retroarch/roms/segacd" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "sfc" as the defined ROM directory "/home/willian/.config/retroarch/roms/sfc" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "sg-1000" as the defined ROM directory "/home/willian/.config/retroarch/roms/sg-1000" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "sgb" as the defined ROM directory "/home/willian/.config/retroarch/roms/sgb" does not exist
+Apr 11 19:55:45 Debug:  A system with the name "snes" has already been loaded, skipping duplicate entry
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "snesna" as the defined ROM directory "/home/willian/.config/retroarch/roms/snesna" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "solarus" as the defined ROM directory "/home/willian/.config/retroarch/roms/solarus" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "spectravideo" as the defined ROM directory "/home/willian/.config/retroarch/roms/spectravideo" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "steam" as the defined ROM directory "/home/willian/.config/retroarch/roms/steam" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "stv" as the defined ROM directory "/home/willian/.config/retroarch/roms/stv" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "sufami" as the defined ROM directory "/home/willian/.config/retroarch/roms/sufami" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "supergrafx" as the defined ROM directory "/home/willian/.config/retroarch/roms/supergrafx" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "supervision" as the defined ROM directory "/home/willian/.config/retroarch/roms/supervision" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "supracan" as the defined ROM directory "/home/willian/.config/retroarch/roms/supracan" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "switch" as the defined ROM directory "/home/willian/.config/retroarch/roms/switch" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "symbian" as the defined ROM directory "/home/willian/.config/retroarch/roms/symbian" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "tanodragon" as the defined ROM directory "/home/willian/.config/retroarch/roms/tanodragon" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "tg16" as the defined ROM directory "/home/willian/.config/retroarch/roms/tg16" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "tg-cd" as the defined ROM directory "/home/willian/.config/retroarch/roms/tg-cd" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "ti99" as the defined ROM directory "/home/willian/.config/retroarch/roms/ti99" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "tic80" as the defined ROM directory "/home/willian/.config/retroarch/roms/tic80" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "to8" as the defined ROM directory "/home/willian/.config/retroarch/roms/to8" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "triforce" as the defined ROM directory "/home/willian/.config/retroarch/roms/triforce" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "trs-80" as the defined ROM directory "/home/willian/.config/retroarch/roms/trs-80" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "type-x" as the defined ROM directory "/home/willian/.config/retroarch/roms/type-x" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "uzebox" as the defined ROM directory "/home/willian/.config/retroarch/roms/uzebox" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "vectrex" as the defined ROM directory "/home/willian/.config/retroarch/roms/vectrex" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "vic20" as the defined ROM directory "/home/willian/.config/retroarch/roms/vic20" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "videopac" as the defined ROM directory "/home/willian/.config/retroarch/roms/videopac" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "vircon32" as the defined ROM directory "/home/willian/.config/retroarch/roms/vircon32" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "virtualboy" as the defined ROM directory "/home/willian/.config/retroarch/roms/virtualboy" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "vpinball" as the defined ROM directory "/home/willian/.config/retroarch/roms/vpinball" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "vsmile" as the defined ROM directory "/home/willian/.config/retroarch/roms/vsmile" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "wasm4" as the defined ROM directory "/home/willian/.config/retroarch/roms/wasm4" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "wii" as the defined ROM directory "/home/willian/.config/retroarch/roms/wii" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "wiiu" as the defined ROM directory "/home/willian/.config/retroarch/roms/wiiu" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "windows" as the defined ROM directory "/home/willian/.config/retroarch/roms/windows" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "windows3x" as the defined ROM directory "/home/willian/.config/retroarch/roms/windows3x" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "windows9x" as the defined ROM directory "/home/willian/.config/retroarch/roms/windows9x" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "wonderswan" as the defined ROM directory "/home/willian/.config/retroarch/roms/wonderswan" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "wonderswancolor" as the defined ROM directory "/home/willian/.config/retroarch/roms/wonderswancolor" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "x1" as the defined ROM directory "/home/willian/.config/retroarch/roms/x1" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "x68000" as the defined ROM directory "/home/willian/.config/retroarch/roms/x68000" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "xbox" as the defined ROM directory "/home/willian/.config/retroarch/roms/xbox" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "xbox360" as the defined ROM directory "/home/willian/.config/retroarch/roms/xbox360" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "xboxone" as the defined ROM directory "/home/willian/.config/retroarch/roms/xboxone" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "zmachine" as the defined ROM directory "/home/willian/.config/retroarch/roms/zmachine" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "zx81" as the defined ROM directory "/home/willian/.config/retroarch/roms/zx81" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "zxnext" as the defined ROM directory "/home/willian/.config/retroarch/roms/zxnext" does not exist
+Apr 11 19:55:45 Debug:  SystemData::loadConfig(): Skipping system "zxspectrum" as the defined ROM directory "/home/willian/.config/retroarch/roms/zxspectrum" does not exist
+Apr 11 19:55:45 Debug:  No systems sorting file loaded
+Apr 11 19:55:45 Info:   Parsed configuration for 207 systems, loaded 5 systems (collections not included)
+Apr 11 19:55:45 Info:   Total game count: 9444
+Apr 11 19:55:45 Debug:  SystemView::populate(): Populating primary element...
+Apr 11 19:55:45 Debug:  ViewController::preload(): Populating gamelist for system "arcade"
+Apr 11 19:55:45 Debug:  ApplicationUpdater::downloadFile(): Downloaded "latest_release.json" in 305 milliseconds
+Apr 11 19:55:45 Debug:  ApplicationUpdater::parseFile(): Latest stable release is 3.4.1 (r51), no prerelease currently available
+Apr 11 19:55:45 Debug:  ViewController::preload(): Populating gamelist for system "n64"
+Apr 11 19:55:45 Debug:  ViewController::preload(): Populating gamelist for system "nes"
+Apr 11 19:55:45 Debug:  ViewController::preload(): Populating gamelist for system "dreamcast"
+Apr 11 19:55:45 Debug:  ViewController::preload(): Populating gamelist for system "snes"
+Apr 11 19:55:45 Debug:  NavigationSounds::loadThemeNavigationSounds(): Theme does not include navigation sound support, using fallback sounds
+Apr 11 19:55:45 Debug:  Sound::getFromTheme(): Using fallback sound file for "systembrowse"
+Apr 11 19:55:45 Debug:  Sound::getFromTheme(): Using fallback sound file for "quicksysselect"
+Apr 11 19:55:45 Debug:  Sound::getFromTheme(): Using fallback sound file for "select"
+Apr 11 19:55:45 Debug:  Sound::getFromTheme(): Using fallback sound file for "back"
+Apr 11 19:55:45 Debug:  Sound::getFromTheme(): Using fallback sound file for "scroll"
+Apr 11 19:55:45 Debug:  Sound::getFromTheme(): Using fallback sound file for "favorite"
+Apr 11 19:55:45 Debug:  Sound::getFromTheme(): Using fallback sound file for "launch"
+Apr 11 19:55:45 Info:   Finished loading theme "linear-es-de"
+Apr 11 19:55:45 Info:   Aspect ratio automatically set to exact match "16:9"
+Apr 11 19:55:45 Info:   Theme language set to "pt_BR"
+Apr 11 19:55:45 Info:   No application updates available
+Apr 11 19:55:45 Info:   Application startup time: 878 ms
+Apr 11 19:55:46 Debug:  Window::logInput(Keyboard): Key Left, isMappedTo=left, value=1
+Apr 11 19:55:47 Debug:  Window::logInput(Keyboard): Key Left, isMappedTo=left, value=0
+Apr 11 19:55:47 Debug:  Window::logInput(Keyboard): Key Left, isMappedTo=left, value=1
+Apr 11 19:55:47 Debug:  Window::logInput(Keyboard): Key Left, isMappedTo=left, value=0
+Apr 11 19:55:47 Debug:  Window::logInput(Keyboard): Key Left, isMappedTo=left, value=1
+Apr 11 19:55:47 Debug:  Window::logInput(Keyboard): Key Left, isMappedTo=left, value=0
+Apr 11 19:55:47 Debug:  Window::logInput(Keyboard): Key Return, isMappedTo=a, value=1
+Apr 11 19:55:48 Debug:  Window::logInput(Keyboard): Key Return, isMappedTo=a, value=0
+Apr 11 19:55:49 Debug:  Window::logInput(Keyboard): Key PageDown, isMappedTo=rightshoulder, value=1
+Apr 11 19:55:49 Debug:  Window::logInput(Keyboard): Key PageDown, isMappedTo=rightshoulder, value=0
+Apr 11 19:55:49 Debug:  Window::logInput(Keyboard): Key PageDown, isMappedTo=rightshoulder, value=1
+Apr 11 19:55:49 Debug:  Window::logInput(Keyboard): Key PageDown, isMappedTo=rightshoulder, value=0
+Apr 11 19:55:49 Debug:  Window::logInput(Keyboard): Key PageDown, isMappedTo=rightshoulder, value=1
+Apr 11 19:55:49 Debug:  Window::logInput(Keyboard): Key PageDown, isMappedTo=rightshoulder, value=0
+Apr 11 19:55:49 Debug:  Window::logInput(Keyboard): Key PageDown, isMappedTo=rightshoulder, value=1
+Apr 11 19:55:49 Debug:  Window::logInput(Keyboard): Key PageDown, isMappedTo=rightshoulder, value=0
+Apr 11 19:55:49 Debug:  Window::logInput(Keyboard): Key PageDown, isMappedTo=rightshoulder, value=1
+Apr 11 19:55:49 Debug:  Window::logInput(Keyboard): Key PageDown, isMappedTo=rightshoulder, value=0
+Apr 11 19:55:49 Debug:  Window::logInput(Keyboard): Key PageDown, isMappedTo=rightshoulder, value=1
+Apr 11 19:55:49 Debug:  Window::logInput(Keyboard): Key PageDown, isMappedTo=rightshoulder, value=0
+Apr 11 19:55:50 Debug:  Window::logInput(Keyboard): Key Return, isMappedTo=a, value=1
+Apr 11 19:55:53 Info:   Launching game "Baseball Simulator 1.000 (USA)" from system "Nintendo Entertainment System (nes)"...
+Apr 11 19:55:53 Debug:  FileData::launchGame(): Using default emulator
+Apr 11 19:55:53 Debug:  FileData::launchGame(): Emulator set to "/usr/bin/retroarch"
+Apr 11 19:55:53 Debug:  Raw emulator launch command:
+Apr 11 19:55:53 Debug:  retroarch --config $HOME/.config/ES-DE/retroarch.cfg -L $HOME/.config/retroarch/cores/mesen_libretro.so %ROM%
+Apr 11 19:55:53 Info:   Expanded emulator launch command:
+Apr 11 19:55:53 Info:   retroarch --config $HOME/.config/ES-DE/retroarch.cfg -L $HOME/.config/retroarch/cores/mesen_libretro.so /home/willian/.config/retroarch/roms/Nintendo\ -\ Nintendo\ Entertainment\ System/Baseball\ Simulator\ 1.000\ \(USA\).zip
+Apr 11 19:56:45 Debug:  Platform::launchGameUnix():
+Apr 11 19:56:45 Debug:  Output from launched game:
+[INFO] RetroArch 1.22.2 (Git 69a4f0ea1e)
+[INFO] === Build =======================================
+[INFO] CPU Model Name: AMD Ryzen 7 5700X 8-Core Processor             
+[INFO] Capacidades: MMX MMXEXT SSE SSE2 SSE3 SSSE3 SSE4 SSE42 AES AVX AVX2 
+[INFO] Version: 1.22.2
+[INFO] Git: 69a4f0ea1e
+[INFO] Built: Dec  7 2025
+[INFO] =================================================
+[INFO] [Input] Found input driver: "udev".
+[INFO] [Core] Loading dynamic libretro core from: "/home/willian/.config/retroarch/cores/mesen_libretro.so".
+[INFO] [Override] Game-specific overrides found at "/home/willian/.config/retroarch/config/Mesen/Baseball Simulator 1.000 (USA).cfg".
+[INFO] [Config] Loading config: "/home/willian/.config/ES-DE/retroarch.cfg".
+[INFO] [Config] Appending override config: "/home/willian/.config/retroarch/config/Mesen/Baseball Simulator 1.000 (USA).cfg".
+[INFO] [Override] Redirecionando arquivo dados da memória do jogo em "/home/willian/.config/retroarch/saves/Mesen/Baseball Simulator 1.000 (USA).srm".
+[INFO] [Override] Redirecionando ponto de save para "/home/willian/.config/retroarch/states/Mesen/Baseball Simulator 1.000 (USA).state".
+[INFO] [Environ] GET_CORE_OPTIONS_VERSION.
+[INFO] [Environ] GET_LANGUAGE: "7".
+[INFO] [Environ] SET_CORE_OPTIONS_V2_INTL.
+[INFO] [Environ] SET_CONTROLLER_INFO.
+[INFO] [Environ] SET_CONTENT_INFO_OVERRIDE.
+[INFO] [Content Override] File Extension: 'nes' - need_fullpath: FALSE, persistent_data: FALSE
+[INFO] [Content Override] File Extension: 'fds' - need_fullpath: FALSE, persistent_data: FALSE
+[INFO] [Content Override] File Extension: 'unf' - need_fullpath: FALSE, persistent_data: FALSE
+[INFO] [Content Override] File Extension: 'unif' - need_fullpath: FALSE, persistent_data: FALSE
+[INFO] [Environ] GET_LOG_INTERFACE.
+[INFO] [Content] Carregando arquivo de conteúdo: "/home/willian/.config/retroarch/roms/Nintendo - Nintendo Entertainment System/Baseball Simulator 1.000 (USA).zip#Baseball Simulator 1.000 (USA).nes".
+[INFO] [Content] CRC32: 0x469b04f6.
+[INFO] [Environ] GET_SYSTEM_DIRECTORY: "/home/willian/.config/retroarch/system".
+[INFO] [Environ] GET_SAVE_DIRECTORY: "/home/willian/.config/retroarch/saves/Mesen".
+[INFO] [Environ] SET_PIXEL_FORMAT: XRGB8888.
+[INFO] [Environ] SET_GEOMETRY: 256x240, Aspect: 1.219.
+[INFO] [Environ] GET_GAME_INFO_EXT.
+[libretro INFO] 
+[libretro INFO] Loading rom: Baseball Simulator 1.000 (USA).nes
+[libretro INFO] PRG CRC32: 0xF35F14D3
+[libretro INFO] PRG+CHR CRC32: 0x1F6EA423
+[libretro INFO] [iNes] Mapper: 1 Sub:0
+[libretro INFO] [iNes] PRG ROM: 128 KB
+[libretro INFO] [iNes] CHR ROM: 128 KB
+[libretro INFO] [iNes] Mirroring: Horizontal
+[libretro INFO] [iNes] Battery: Yes
+[INFO] [Environ] SET_INPUT_DESCRIPTORS.
+[INFO] [Environ] SET_MEMORY_MAPS.
+[INFO] [SRAM] Ignorando carregamento da SRAM.
+[INFO] [Core] Versão da API libretro: 1, Compilado contra a API: 1
+[INFO] [Core] Geometry: 256x240, Aspect: 1.219, FPS: 60.10, Sample rate: 48000.00 Hz.
+[INFO] [Video] Set video size to: fullscreen.
+[INFO] [Video] Starting threaded video driver...
+[INFO] [Wayland] Registered interface wl_compositor at version 6.
+[INFO] [Wayland] Registered interface zxdg_decoration_manager_v1 at version 1.
+[INFO] [Wayland] Registered interface wp_viewporter at version 1.
+[INFO] [Wayland] Registered interface wp_fractional_scale_manager_v1 at version 1.
+[INFO] [Wayland] Registered interface wl_shm at version 2.
+[INFO] [Wayland] Registered interface wl_seat at version 10.
+[INFO] [Wayland] Registered interface zwp_pointer_constraints_v1 at version 1.
+[INFO] [Wayland] Registered interface zwp_relative_pointer_manager_v1 at version 1.
+[INFO] [Wayland] Registered interface wl_data_device_manager at version 3.
+[INFO] [Wayland] Registered interface wp_cursor_shape_manager_v1 at version 2.
+[INFO] [Wayland] Registered interface zwp_idle_inhibit_manager_v1 at version 1.
+[INFO] [Wayland] Registered interface wp_content_type_manager_v1 at version 1.
+[INFO] [Wayland] Registered interface xdg_toplevel_icon_manager_v1 at version 1.
+[INFO] [Wayland] Registered interface wp_single_pixel_buffer_manager_v1 at version 1.
+[INFO] [Wayland] Registered interface xdg_wm_base at version 6.
+[INFO] [Wayland] Registered interface wl_output at version 4.
+Failed to load plugin 'libdecor-gtk.so': failed to init
+[INFO] [Vulkan] Vulkan dynamic library loaded.
+[INFO] [Vulkan] Found GPU at index 0: "NVIDIA GeForce RTX 2060".
+[INFO] [Vulkan] Using GPU index 0.
+[INFO] [Vulkan] Using fences for WSI acquire.
+[INFO] [Vulkan] Using GPU: "NVIDIA GeForce RTX 2060".
+[INFO] [Vulkan] Queue family 0 supports 16 sub-queues.
+[INFO] [Vulkan] Got 3 swapchain images.
+[INFO] [Wayland] Auto fullscreen monitor index, letting compositor decide.
+[INFO] [Vulkan] Using resolution 2560x1440.
+[INFO] [Vulkan] Using BGRA8888 format.
+[INFO] [Vulkan] Loading stock shader.
+[INFO] [udev] Pad #0 (/dev/input/event16) supports force feedback.
+[INFO] [udev] Pad #0 (/dev/input/event16) supports 16 force feedback effects.
+[INFO] [Input] Found joypad driver: "udev".
+[INFO] [Autoconf] Nintendo Switch Pro Controller conectado na porta 1.
+[INFO] [Video] Found display server: "null".
+[INFO] [Audio] Set audio input rate to: 47920.27 Hz.
+[INFO] [PulseAudio] Requested 24576 bytes buffer, got 18432.
+[INFO] [Audio] Started synchronous audio driver.
+[INFO] [ALSA] Using ALSA version 1.2.15.3
+[INFO] [Microphone] Initialized microphone driver.
+[INFO] [Display] Found display driver: "vulkan".
+[ERROR] [Overrides] Não está salvando. Substituições ativas.
+[INFO] [Playlist] Carregando o arquivo de favoritos: "/home/willian/.config/retroarch/playlists/builtin/content_favorites.lpl".
+[INFO] [Playlist] Carregando arquivo de histórico: "/home/willian/.config/retroarch/playlists/builtin/content_history.lpl".
+[INFO] [Playlist] Carregando arquivo de histórico: "/home/willian/.config/retroarch/playlists/builtin/content_image_history.lpl".
+[INFO] [Playlist] Carregando arquivo de histórico: "/home/willian/.config/retroarch/playlists/builtin/content_music_history.lpl".
+[INFO] [Playlist] Carregando arquivo de histórico: "/home/willian/.config/retroarch/playlists/builtin/content_video_history.lpl".
+[INFO] [Playlist] Written to file: "/home/willian/.config/retroarch/playlists/builtin/content_history.lpl".
+[INFO] [Vulkan] Got 3 swapchain images.
+[INFO] [Config] Loading config: "/home/willian/.config/ES-DE/retroarch.cfg".
+[INFO] [Override] Configuration overrides unloaded, original configuration restored.
+[INFO] [Config] Configuração salva em "/home/willian/.config/ES-DE/retroarch.cfg".
+[INFO] [SRAM] Salvando tipo de RAM #0 em "/home/willian/.config/retroarch/saves/Mesen/Baseball Simulator 1.000 (USA).srm".
+[INFO] [SRAM] Salvo com sucesso em "/home/willian/.config/retroarch/saves/Mesen/Baseball Simulator 1.000 (USA).srm".
+[INFO] [Runtime] Content ran for a total of: 00 hours, 00 minutes, 51 seconds.
+[INFO] [Core] Unloading game...
+[INFO] [Core] Unloading core...
+[INFO] [Core] Unloading core symbols...
+[INFO] [Core] Saved core options file to "/home/willian/.config/retroarch/config/Mesen/Mesen.opt".
+[INFO] Threaded video stats: Frames pushed: 3072, Frames dropped: 14.
+QThreadStorage: entry 8 destroyed before end of thread 0x55ef9e250500
+QThreadStorage: entry 7 destroyed before end of thread 0x55ef9e250500
+QThreadStorage: entry 2 destroyed before end of thread 0x55ef9e250500
+QThreadStorage: entry 1 destroyed before end of thread 0x55ef9e250500
+Apr 11 19:56:45 Debug:  FileData::setPlayMetadata(): Play time was 52 seconds
+Apr 11 19:56:45 Debug:  GamelistFileParser::updateGamelist(): Added/updated 1 entity in "/home/willian/.config/ES-DE/gamelists/nes/gamelist.xml"
+Apr 11 19:56:47 Debug:  Window::logInput(Keyboard): Key Escape, isMappedTo=start, value=1
+Apr 11 19:56:47 Debug:  Window::logInput(Keyboard): Key Escape, isMappedTo=start, value=0
+Apr 11 19:56:48 Debug:  Window::logInput(Keyboard): Key Escape, isMappedTo=start, value=1
+Apr 11 19:56:48 Debug:  Window::logInput(Keyboard): Key Escape, isMappedTo=start, value=0
+Apr 11 19:56:48 Debug:  Window::logInput(Keyboard): Key Escape, isMappedTo=start, value=1
+Apr 11 19:56:48 Debug:  Window::logInput(Keyboard): Key Escape, isMappedTo=start, value=0
+Apr 11 19:56:49 Debug:  Window::logInput(Keyboard): Key Down, isMappedTo=down, value=1
+Apr 11 19:56:49 Debug:  Window::logInput(Keyboard): Key Down, isMappedTo=down, value=0
+Apr 11 19:56:49 Debug:  Window::logInput(Keyboard): Key Down, isMappedTo=down, value=1
+Apr 11 19:56:49 Debug:  Window::logInput(Keyboard): Key Down, isMappedTo=down, value=0
+Apr 11 19:56:49 Debug:  Window::logInput(Keyboard): Key Down, isMappedTo=down, value=1
+Apr 11 19:56:49 Debug:  Window::logInput(Keyboard): Key Down, isMappedTo=down, value=0
+Apr 11 19:56:49 Debug:  Window::logInput(Keyboard): Key Down, isMappedTo=down, value=1
+Apr 11 19:56:49 Debug:  Window::logInput(Keyboard): Key Down, isMappedTo=down, value=0
+Apr 11 19:56:49 Debug:  Window::logInput(Keyboard): Key Down, isMappedTo=down, value=1
+Apr 11 19:56:49 Debug:  Window::logInput(Keyboard): Key Down, isMappedTo=down, value=0
+Apr 11 19:56:49 Debug:  Window::logInput(Keyboard): Key Down, isMappedTo=down, value=1
+Apr 11 19:56:49 Debug:  Window::logInput(Keyboard): Key Down, isMappedTo=down, value=0
+Apr 11 19:56:49 Debug:  Window::logInput(Keyboard): Key Down, isMappedTo=down, value=1
+Apr 11 19:56:50 Debug:  Window::logInput(Keyboard): Key Down, isMappedTo=down, value=0
+Apr 11 19:56:50 Debug:  Window::logInput(Keyboard): Key Return, isMappedTo=a, value=1
+Apr 11 19:56:50 Debug:  Window::logInput(Keyboard): Key Return, isMappedTo=a, value=0
+Apr 11 19:56:50 Debug:  Window::logInput(Keyboard): Key Return, isMappedTo=a, value=1
+Apr 11 19:56:50 Info:   ES-DE cleanly shutting down

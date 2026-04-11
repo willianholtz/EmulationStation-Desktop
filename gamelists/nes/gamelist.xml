@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<gameList>
+	<game>
+		<path>./Baseball Simulator 1.000 (USA).zip</path>
+		<name>Baseball Simulator 1.000 (USA)</name>
+		<playcount>1</playcount>
+		<playtime>52</playtime>
+		<lastplayed>20260411T195645</lastplayed>
+	</game>
+	<game>
+		<path>./Bases Loaded 4 (USA).zip</path>
+		<name>Bases Loaded 4 (USA)</name>
+		<playcount>1</playcount>
+		<playtime>7</playtime>
+		<lastplayed>20260411T200115</lastplayed>
+	</game>
+</gameList>
