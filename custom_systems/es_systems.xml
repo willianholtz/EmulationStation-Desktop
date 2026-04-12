@@ -103,18 +103,29 @@
     <system>
         <name>psx</name>
         <fullname>PlayStation</fullname>
-        <path>%ROMPATH%/Sony - PlayStation</path>
-        <extension>.cue .bin .img .pbp</extension>
+        <path>%ROMPATH%/Sony - Playstation</path>
+        <extension>.cue .bin .img .pbp .chd</extension>
         <command>retroarch --config $HOME/.config/ES-DE/retroarch.cfg -L $HOME/.config/retroarch/cores/swanstation_libretro.so %ROM%</command>
         <platform>psx</platform>
         <theme>psx</theme>
+    </system>
+
+    <!-- PS2 -->
+    <system>
+        <name>ps2</name>
+        <fullname>PlayStation 2</fullname>
+        <path>%ROMPATH%/Sony - Playstation 2</path>
+        <extension>.iso .chd</extension>
+        <command>retroarch --config $HOME/.config/ES-DE/retroarch.cfg -L $HOME/.config/retroarch/cores/pcsx2_libretro.so %ROM%</command>
+        <platform>ps2</platform>
+        <theme>ps2</theme>
     </system>
 
     <!-- PSP -->
     <system>
         <name>psp</name>
         <fullname>PlayStation Portable</fullname>
-        <path>%ROMPATH%/Sony - PlayStation Portable</path>
+        <path>%ROMPATH%/Sony - Playstation Portable</path>
         <extension>.iso .cso</extension>
         <command>retroarch --config $HOME/.config/ES-DE/retroarch.cfg -L $HOME/.config/retroarch/cores/ppsspp_libretro.so %ROM%</command>
         <platform>psp</platform>
