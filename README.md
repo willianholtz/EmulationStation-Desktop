@@ -44,8 +44,9 @@ No unnecessary layers. No hidden behavior.
 ## ⚡ Quick Start
 
 ```bash
-git clone <your-repo>
-cd <your-repo>
+gh repo clone willianholtz/EmulationStation-Desktop
+
+cd EmulationStation-Desktop
 
 ./ES-DE_x64.AppImage --home ~/.config/
 ```
