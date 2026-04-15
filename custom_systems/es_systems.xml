@@ -1,16 +1,5 @@
 <systemList>
 
-    <!-- SNES -->
-    <system>
-        <name>snes</name>
-        <fullname>Super Nintendo</fullname>
-        <path>%ROMPATH%/Nintendo - Super Nintendo Entertainment System</path>
-        <extension>.sfc .smc .zip</extension>
-        <command>retroarch --config $HOME/.config/ES-DE/retroarch.cfg -L $HOME/.config/retroarch/cores/bsnes_libretro.so %ROM%</command>
-        <platform>snes</platform>
-        <theme>snes</theme>
-    </system>
-
     <!-- NES -->
     <system>
         <name>nes</name>
@@ -20,6 +9,17 @@
         <command>retroarch --config $HOME/.config/ES-DE/retroarch.cfg -L $HOME/.config/retroarch/cores/mesen_libretro.so %ROM%</command>
         <platform>nes</platform>
         <theme>nes</theme>
+    </system>
+
+    <!-- SNES -->
+    <system>
+        <name>snes</name>
+        <fullname>Super Nintendo Entertainment System</fullname>
+        <path>%ROMPATH%/Nintendo - Super Nintendo Entertainment System</path>
+        <extension>.sfc .smc .zip</extension>
+        <command>retroarch --config $HOME/.config/ES-DE/retroarch.cfg -L $HOME/.config/retroarch/cores/bsnes_libretro.so %ROM%</command>
+        <platform>snes</platform>
+        <theme>snes</theme>
     </system>
 
     <!-- N64 -->
@@ -44,7 +44,7 @@
         <theme>gb</theme>
     </system>
 
-    <!-- Game Boy Color -->
+    <!-- GBC -->
     <system>
         <name>gbc</name>
         <fullname>Game Boy Color</fullname>
@@ -55,7 +55,7 @@
         <theme>gbc</theme>
     </system>
 
-    <!-- Game Boy Advance -->
+    <!-- GBA -->
     <system>
         <name>gba</name>
         <fullname>Game Boy Advance</fullname>
@@ -64,6 +64,62 @@
         <command>retroarch --config $HOME/.config/ES-DE/retroarch.cfg -L $HOME/.config/retroarch/cores/mgba_libretro.so %ROM%</command>
         <platform>gba</platform>
         <theme>gba</theme>
+    </system>
+
+    <!-- GameCube -->
+    <system>
+        <name>gamecube</name>
+        <fullname>Nintendo GameCube</fullname>
+        <path>%ROMPATH%/Nintendo - GameCube</path>
+        <extension>.iso .gcm .ciso</extension>
+        <command>bash -c 'dolphin-emu -b -e "$1" -c "Dolphin.Display.Fullscreen=True"' _ %ROM%</command>
+        <platform>gamecube</platform>
+        <theme>gamecube</theme>
+    </system>
+
+    <!-- Wii -->
+    <system>
+        <name>wii</name>
+        <fullname>Nintendo Wii</fullname>
+        <path>%ROMPATH%/Nintendo - Nintendo Wii</path>
+        <extension>.iso .wbfs .rvz</extension>
+        <command>bash -c 'dolphin-emu -b -e "$1" -c "Dolphin.Display.Fullscreen=True"' _ %ROM%</command>
+        <platform>wii</platform>
+        <theme>wii</theme>
+    </system>
+
+    <!-- DS -->
+    <system>
+        <name>nds</name>
+        <fullname>Nintendo DS</fullname>
+        <path>%ROMPATH%/Nintendo - Nintendo DS</path>
+        <extension>.nds</extension>
+        <command>retroarch --config $HOME/.config/ES-DE/retroarch.cfg -L $HOME/.config/retroarch/cores/melonds_libretro.so %ROM%</command>
+        <platform>nds</platform>
+        <theme>nds</theme>
+    </system>
+
+    <!-- 3DS -->
+    <system>
+        <name>3ds</name>
+        <fullname>Nintendo 3DS</fullname>
+        <path>%ROMPATH%/Nintendo - Nintendo 3DS</path>
+        <extension>.3ds .cia</extension>
+        <command>citra-qt %ROM%</command>
+        <platform>3ds</platform>
+        <theme>3ds</theme>
+    </system>
+
+    <!-- Switch -->
+    <system>
+        <name>switch</name>
+        <fullname>Nintendo Switch</fullname>
+        <path>%ROMPATH%/Nintendo - Nintendo Switch/Extra Games/</path>
+        <path>/home/nintendo/Nintendo Switch/</path>
+        <extension>.xci .nsp .nca</extension>
+        <command>eden -f -g %ROM%</command>
+        <platform>switch</platform>
+        <theme>switch</theme>
     </system>
 
     <!-- Mega Drive -->
@@ -97,6 +153,39 @@
         <command>retroarch --config $HOME/.config/ES-DE/retroarch.cfg -L $HOME/.config/retroarch/cores/flycast_libretro.so %ROM%</command>
         <platform>dreamcast</platform>
         <theme>dreamcast</theme>
+    </system>
+
+    <!-- Saturn -->
+    <system>
+        <name>saturn</name>
+        <fullname>Sega Saturn</fullname>
+        <path>%ROMPATH%/Sega - Saturn</path>
+        <extension>.cue .iso .chd</extension>
+        <command>retroarch --config $HOME/.config/ES-DE/retroarch.cfg -L $HOME/.config/retroarch/cores/mednafen_saturn_libretro.so %ROM%</command>
+        <platform>saturn</platform>
+        <theme>saturn</theme>
+    </system>
+
+    <!-- Atomiswave -->
+    <system>
+        <name>atomiswave</name>
+        <fullname>Atomiswave</fullname>
+        <path>%ROMPATH%/Sega - Atomiswave</path>
+        <extension>.zip .7z</extension>
+        <command>retroarch --config $HOME/.config/ES-DE/retroarch.cfg -L $HOME/.config/retroarch/cores/flycast_libretro.so %ROM%</command>
+        <platform>arcade</platform>
+        <theme>atomiswave</theme>
+    </system>
+
+    <!-- Naomi -->
+    <system>
+        <name>naomi</name>
+        <fullname>Sega Naomi</fullname>
+        <path>%ROMPATH%/Sega - Naomi</path>
+        <extension>.zip .7z</extension>
+        <command>retroarch --config $HOME/.config/ES-DE/retroarch.cfg -L $HOME/.config/retroarch/cores/flycast_libretro.so %ROM%</command>
+        <platform>arcade</platform>
+        <theme>naomi</theme>
     </system>
 
     <!-- PS1 -->
