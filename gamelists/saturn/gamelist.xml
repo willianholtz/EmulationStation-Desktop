@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<gameList>
+	<folder>
+		<path>./Dracula X Nocturne in the Moonlight - Ultimate (v1.1)</path>
+		<name>Akumajou Dracula X - Gekka no Yasoukyoku</name>
+		<desc>Akumajo Dracula X: Gekka no Yasokyoku is an entry in the Castlevania series released for the Sega Saturn exclusively in Japan in 1998. Western gamers know this game as Castlevania: Symphony of the Night - the name the PlayStation 1 version of the game and all successive re-releases. It is a direct sequel to Akumajo Dracula X: Chi no Rondo for the TurboGrafx-CD and the second and final Castlevania game to be released on a Sega system, following Castlevania: Bloodlines.</desc>
+		<rating>0.9</rating>
+		<releasedate>19980625T000000</releasedate>
+		<developer>Konami Computer Entertainment</developer>
+		<publisher>Konami</publisher>
+		<genre>Action / Adventure</genre>
+		<players>1</players>
+	</folder>
+	<game>
+		<path>./Dracula X Nocturne in the Moonlight - Ultimate (v1.1)/Akumajou Dracula X - Gekka no Yasoukyoku (Japan) (2M).cue</path>
+		<name>Akumajou Dracula X - Gekka no Yasoukyoku</name>
+		<desc>Akumajo Dracula X: Gekka no Yasokyoku is an entry in the Castlevania series released for the Sega Saturn exclusively in Japan in 1998. Western gamers know this game as Castlevania: Symphony of the Night - the name the PlayStation 1 version of the game and all successive re-releases. It is a direct sequel to Akumajo Dracula X: Chi no Rondo for the TurboGrafx-CD and the second and final Castlevania game to be released on a Sega system, following Castlevania: Bloodlines.</desc>
+		<rating>0.9</rating>
+		<releasedate>19980625T000000</releasedate>
+		<developer>Konami Computer Entertainment</developer>
+		<publisher>Konami</publisher>
+		<genre>Action / Adventure</genre>
+		<players>1</players>
+	</game>
+</gameList>

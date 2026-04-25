@@ -115,7 +115,6 @@
         <name>switch</name>
         <fullname>Nintendo Switch</fullname>
         <path>%ROMPATH%/Nintendo - Nintendo Switch/Extra Games/</path>
-        <path>/home/nintendo/Nintendo Switch/</path>
         <extension>.xci .nsp .nca</extension>
         <command>eden -f -g %ROM%</command>
         <platform>switch</platform>
@@ -145,6 +144,7 @@
     </system>
 
     <!-- Dreamcast -->
+
     <system>
         <name>dreamcast</name>
         <fullname>Sega Dreamcast</fullname>

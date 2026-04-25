@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<gameList>
+	<game>
+		<path>./Crazy Taxi 2 (USA).chd</path>
+		<name>Crazy Taxi 2</name>
+		<desc>The sequel to the smash hit Crazy Taxi puts you in the driver's seat once again with 4 new drivers to choose from, and a brand new city to wreak havoc in based on New York City.
+
+In Crazy Taxi, you crashed your taxi through the streets as fast as possible, making money by performing stunts and picking bringing passengers to certain destinations. For Crazy Taxi 2, you can pick up more than one passenger at a time, meaning more money faster, new stunts including the 'hop', which allows you to hop over buildings and take the quick route past the traffic, and plenty of mini games, such as Crazy Golf.</desc>
+		<rating>0.9</rating>
+		<releasedate>20010607T000000</releasedate>
+		<developer>Hitmaker</developer>
+		<publisher>SEGA</publisher>
+		<genre>Racing TPV</genre>
+		<players>1</players>
+		<playcount>1</playcount>
+		<playtime>14</playtime>
+		<lastplayed>20260412T095854</lastplayed>
+	</game>
+	<game>
+		<path>./Resident Evil 3 - Nemesis (USA).chd</path>
+		<name>Resident Evil 3 : Nemesis</name>
+		<desc>The survival horror Resident Evil 3: Nemesis on Dreamcast takes place during the events of Resident Evil 2. This time you play as Jill Valentine, and must escape alive from Raccoon City, ravaged by zombies. Nemesis, the exterminating monster of the last survivors is on your tail.</desc>
+		<rating>0.9</rating>
+		<releasedate>20001221T000000</releasedate>
+		<developer>Capcom</developer>
+		<publisher>Virgin Interactive</publisher>
+		<genre>Adventure / Survival Horror</genre>
+		<players>1</players>
+		<playcount>3</playcount>
+		<playtime>356</playtime>
+		<lastplayed>20260425T090224</lastplayed>
+	</game>
+	<game>
+		<path>./Crazy Taxi (USA).chd</path>
+		<name>Crazy Taxi</name>
+		<desc>Get behind the wheel of one of the 4 taxis and become one of the craziest drivers by picking up your passengers and getting them back to their destination as quickly as possible. Choose the shortest routes in these bustling cities and master your driving to earn maximum dollars. For even more fun, a very rhythmic soundtrack adorns these crazy road adventures!</desc>
+		<rating>0.8</rating>
+		<releasedate>20000218T000000</releasedate>
+		<developer>SEGA</developer>
+		<publisher>SEGA</publisher>
+		<genre>Racing TPV</genre>
+		<players>1</players>
+		<playcount>3</playcount>
+		<playtime>229</playtime>
+		<lastplayed>20260425T090358</lastplayed>
+	</game>
+</gameList>

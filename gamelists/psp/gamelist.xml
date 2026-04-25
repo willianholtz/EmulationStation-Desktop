@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<gameList>
+	<game>
+		<path>./Castlevania - The Dracula X Chronicles (USA).iso</path>
+		<name>Castlevania : The Dracula X Chronicles</name>
+		<desc>Set in 1792, the story will follow the adventures of Richter Belmont in his fight against Dracula. With the help of Maria, he will try to save his sweetheart, Annette, from the clutches of the Prince of Vampires. Long hours of gameplay await you and the possibility to alternate between the two heroes will allow you to improve your performance. 2 games in 1, specially redeveloped for the PSP. More than a dozen levels to go through in new environments. New 3D character designs, version of Castlevania Rondo of Blood, specially adapted for the PSP. Alternating gameplay with the possibility to play with both characters. Unlockable bonus, the original PC Engine version of the 'Symphony of The Night' episode released on PS1 ten years ago.</desc>
+		<rating>0.9</rating>
+		<releasedate>20080215T000000</releasedate>
+		<developer>Konami</developer>
+		<publisher>Konami</publisher>
+		<genre>Action / Adventure</genre>
+		<players>1</players>
+	</game>
+	<game>
+		<path>./Grand Theft Auto - Vice City Stories (USA).iso</path>
+		<name>Grand Theft Auto : Vice City Stories</name>
+		<desc>Vice City, 1984. Opportunity abounds in a city emerging from the swamps, its growth fueled by the violent power struggle in a lucrative drug trade. Construction is everywhere as a shining metropolis rises from foundations of crime and betrayal.
+As a soldier, Vic Vance has always protected his dysfunctional family, his country, and himself. One bad decision later and that job is about to get much harder. Kicked out onto the streets of a city torn between glamor and gluttony, Vic is faced with a stark choice: build an empire or be crushed.
+GTA: VCS is the PlayStation Portable follow-up to Rockstar's monumental handheld entry in the series, Grand Theft Auto: Liberty City Stories. As in Liberty City Stories, this game ventures back to the location of the second PS2 game.</desc>
+		<rating>0.9</rating>
+		<releasedate>20061110T000000</releasedate>
+		<developer>Rockstar Games</developer>
+		<publisher>Take 2 Interactive</publisher>
+		<genre>Adventure / RealTime 3D</genre>
+		<players>1-6</players>
+	</game>
+	<game>
+		<path>./Metal Gear Solid - Peace Walker (USA) (En,Fr,Es) (v2.00).iso</path>
+		<name>Metal Gear Solid : Peace Walker</name>
+		<desc>Peace Walker is set in Costa Rica in November 1974, four years after the events of Portable Ops and ten years after Snake Eater. Snake (Big Boss) returns as the main character and is running his own mercenary unit after he decided to break away from The Patriots group founded by Major Zero. A mysterious group equipped with the latest weapons, called the Peace Sentinels (PS), has been deployed in-country. Despite the PS being equipped with the firepower equivalent to that of a land army, the Costa Rica government cannot do anything about them because the country's constitution does not allow the creation of an armed forces. The PS presence threatens to endanger the balance of power between the East and West.</desc>
+		<rating>0.9</rating>
+		<releasedate>20100608T000000</releasedate>
+		<developer>Konami</developer>
+		<publisher>Konami</publisher>
+		<genre>Action / Adventure</genre>
+		<players>1-6</players>
+	</game>
+	<game>
+		<path>./World Soccer Winning Eleven 2014 - Aoki Samurai no Chousen (Japan).iso</path>
+		<name>Pro Evolution Soccer 2014</name>
+		<desc>Pro Evolution Soccer 2014 (officially abbreviated as PES 2014, also known in Japan and South Korea as World Soccer: Winning Eleven 2014 in 2013 and also World Soccer: Winning Eleven 2014 - Aoki Samurai no Chousen in 2014) is an association football video game developed and published by Konami. The game features a modified version of the new Fox Engine.[4] It was released on September 19 in Europe, September 20 in United Kingdom, and on November 14 in Japan. The playable demo became available on September 11 for download.[5][6] Once again, the UEFA Champions League, UEFA Europa League and UEFA Super Cup competitions are fully licensed in the game, and the First Playable UEFA Europa League without entering Master League, Become a Legend, and/or League. For the first time, the game features an exclusive license for the AFC Champions League,[7] the Argentine Primera DivisiÃ³n,[8][9] Chilean Primera DivisiÃ³n,[10] and Arabic commentary as well, by Rhaouf Khelif of beIN Sports,[11] also Argentinean commentary, by Mariano Closs and Fernando Niembro, and Chilean commentary by Fernando Solabarrieta and Patricio YÃ¡Ã±ez of Fox Sports LatinoamÃ©rica.
+
+Konami confirmed that rain will not feature in PES 2014 due to the engine upgrade, as well as the Stadium Editor and La Liga stadiums because of licensing restrictions.[12]
+
+Pro Evolution Soccer 2014 is the last video game for the PlayStation 2 produced and released in North America and is the last retailed PlayStation Portable game released in Europe and Asia, which ceased production in January 2013 and December 2014 respectively.[2][3][13] In Japanese version of this game, the cover art features Japan national football team.</desc>
+		<rating>0.5</rating>
+		<releasedate>20131114T000000</releasedate>
+		<developer>Konami</developer>
+		<publisher>Konami</publisher>
+		<genre>Sports / Football (Soccer)</genre>
+		<players>1-2</players>
+	</game>
+</gameList>
