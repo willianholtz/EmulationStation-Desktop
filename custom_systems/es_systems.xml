@@ -121,6 +121,19 @@
         <theme>switch</theme>
     </system>
 
+
+    <!-- Switch -->
+    <system>
+        <name>switch 2</name>
+        <fullname>Nintendo Switch 2</fullname>
+        <path>/home/nintendo/Nintendo Switch/</path>
+        <extension>.xci .nsp .nca</extension>
+        <command>eden -f -g %ROM%</command>
+        <platform>switch</platform>
+        <theme>switch</theme>
+    </system>
+
+
     <!-- Mega Drive -->
     <system>
         <name>megadrive</name>
