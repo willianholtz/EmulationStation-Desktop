@@ -228,7 +228,7 @@
         <name>psp</name>
         <fullname>PlayStation Portable</fullname>
         <path>%ROMPATH%/Sony - Playstation Portable</path>
-        <extension>.iso .cso</extension>
+        <extension>.iso .cso .chd</extension>
         <command>retroarch --config $HOME/.config/ES-DE/retroarch.cfg -L $HOME/.config/retroarch/cores/ppsspp_libretro.so %ROM%</command>
         <platform>psp</platform>
         <theme>psp</theme>
@@ -245,4 +245,16 @@
         <theme>arcade</theme>
     </system>
 
-</systemList>
+    <!-- PlayStation 3 -->
+    <system>
+        <name>ps3</name>
+        <fullname>Sony PlayStation 3</fullname>
+        <path>.config/rpcs3/games</path>
+        <extension>.self .elf .bin .iso</extension>
+        <command>rpcs3 %ROM%</command>
+        <platform>ps3</platform>
+        <theme>ps3</theme>
+    </system>
+
+    </systemList>
+
